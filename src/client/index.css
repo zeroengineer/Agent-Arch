@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ts: #7F77DD;
+  --color-js: #BA7517;
+  --color-py: #1D9E75;
+  --color-go: #378ADD;
+  --color-rs: #D85A30;
+  --color-other: #888780;
+}
+
+@layer base {
+  body {
+    @apply antialiased bg-gray-50 text-gray-900 h-screen w-full m-0 p-0 overflow-hidden font-sans;
+  }
+}
